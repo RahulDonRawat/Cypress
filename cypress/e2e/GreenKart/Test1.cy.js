@@ -4,7 +4,6 @@ describe('My First Test Suite', function() {
 
     it('My First Test Case', function() {
 
-        // Visit the application URL
         cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
 
         // Search for products containing 'ca'
