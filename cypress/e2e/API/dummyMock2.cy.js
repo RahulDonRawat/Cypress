@@ -12,10 +12,11 @@ describe('Fisrt test suite', function () {
                         expect(res.statusCode).to.equal(403)
                     })
                 }
-            )
-    }).as("dummyURL")
-    cy.get("button[class='btn btn-primary']").click()
-    cy.wait('@dummyURL')
+            ).as("dummyURL")
+        cy.get("button[class='btn btn-primary']").click()
+        cy.wait('@dummyURL')
+    })
+
 
 
 
